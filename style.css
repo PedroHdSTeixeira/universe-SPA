@@ -19,10 +19,6 @@ body {
     width: 1280px;
     height: 720px;
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-
     background-image: url(img/mountains-universe-1.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -150,7 +146,7 @@ body.universe-background {
     background-attachment: fixed;
 }
 
-body.exploration-background {
+body .exploration-background {
     background-image: url(img/mountains-universe-3.png);
     background-position: center;
     background-repeat: no-repeat;
